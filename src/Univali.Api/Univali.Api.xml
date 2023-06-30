@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Univali.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Univali.Api.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.SeedingData">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.SeedingData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.SeedingData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.SeedingData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.PublisherInitStringChangeMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.PublisherInitStringChangeMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.PublisherInitStringChangeMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.PublisherInitStringChangeMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.CustomerInitStringChangeMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.CustomerInitStringChangeMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.CustomerInitStringChangeMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.CustomerInitStringChangeMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.Customer.CustomerRefactor">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Customer.CustomerRefactor.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Customer.CustomerRefactor.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Customer.CustomerRefactor.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.Publisher.PublisherInitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherInitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherInitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherInitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.Publisher.PublisherInitStringChangeMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherInitStringChangeMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherInitStringChangeMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherInitStringChangeMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.Publisher.PublisherAdded">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherAdded.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherAdded.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherAdded.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Univali.Api.Migrations.Publisher.PublisherRefactor">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherRefactor.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherRefactor.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.PublisherRefactor.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
