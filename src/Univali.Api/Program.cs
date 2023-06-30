@@ -61,6 +61,7 @@ builder.Services.AddControllers(options => {
     options.InputFormatters.Insert(0, MyJPIF.GetJsonPatchInputFormatter());
 })
 .ConfigureApiBehaviorOptions(setupAction => {
+    setupAction.SuppressModelStateInvalidFilter = true;
     setupAction.InvalidModelStateResponseFactory = context => {
         // Cria a fábrica de um objeto de detalhes de problema de validação
         var problemDetailsFactory = context.HttpContext.RequestServices

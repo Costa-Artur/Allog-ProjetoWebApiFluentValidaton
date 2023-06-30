@@ -6,17 +6,20 @@ public class CreateCustomerCommandValidator : AbstractValidator<CreateCustomerCo
     public CreateCustomerCommandValidator ()
     {
         RuleFor(c => c.Dto.Name)
+        // .Cascade(CascadeMode.Stop)
             .NotEmpty()
             .WithMessage("You should fill out a Name")
             .MaximumLength(50)
             .WithMessage("The {PropertyName} should'nt have more than 50 characters");
 
         RuleFor(c => c.Dto.Cpf)
+        // .Cascade(CascadeMode.Stop)
             .NotEmpty()
             .WithMessage("You should fill out a Cpf")
             .Length(11)
             .WithMessage("The Cpf should have 11 characters")
             .Must(ValidateCPF)
+            .When(c => c.Dto.Cpf != null, ApplyConditionTo.CurrentValidator)
             .WithMessage("The Cpf should be a valid number");
     }
 
